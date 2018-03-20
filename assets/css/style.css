@@ -3,15 +3,55 @@ body{
     color: rgb(168, 112, 112);    
     background-size: cover;
 }
+#logo{
+	float: right;
+	font-size: 65px;
+	color: #ffff80;
+	font-family: Impact, Charcoal, sans-serif;
+	margin-right: 5%;
+}
 
-#char1,#char2,#char3,#char4{
+.char{
     float: left;
     border: 1px solid green;
     padding: 10px 10px 10px 10px;
     text-align: center;
     background-color:white;
-    background-size: cover;
 }
-#char{
+.character img{
+    width:200px;
+    height:100px;
+    display: block;
+}
+.character name{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 20px;
+}
+#character{
     clear: both;
 }
+.enemy{
+    float:left;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color:red;
+}
+.defender{
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+    .character {
+    display: block;
+    height: 150px;    
+    }
+    #gameMessage {
+    font-size: 12px;
+    }
+  }
