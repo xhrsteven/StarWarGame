@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/background.jpg);
+    color: rgb(168, 112, 112);    
+    background-size: cover;
+}
+
+#char1,#char2,#char3,#char4{
+    float: left;
+    border: 1px solid green;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color:white;
+    background-size: cover;
+}
+#char{
+    clear: both;
+}
